@@ -49,7 +49,7 @@ public class IsDate extends BaseMatcher<Date>{
 		}
 	}
 	
-	public static Matcher<Date> dateof(int yyyy, int mm, int dd){
+	public static Matcher<Date> dateOf(int yyyy, int mm, int dd){
 		return new IsDate(yyyy,mm,dd);
 	}
 }
