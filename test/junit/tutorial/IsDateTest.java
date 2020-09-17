@@ -1,6 +1,6 @@
 package junit.tutorial;
 
-import static org.junit.Assert.assertThat;
+import org.hamcrest.*;
 
 import java.util.Date;
 
